@@ -13,6 +13,13 @@ The aim of this script is to work with google speakers and chromecast devices, b
 To add a file, stream or video just copy/paste the needed condition as much as you need. Just dont forget to add each conditions name into the input-select helper.
 
 # Installation
+- input_select helpers kan een keuze gemaakt worden voor het af te spelen station 
+- met een input_select voor de speaker
+- input_number voor het volume. 
+- Vervolgens wordt een script gebruikt om de radio te spelen.
+- input_number radio_volume dient via ‘Helpers’ aangemaakt te worden. Deze wordt later gebruikt om het volume voor de speaker te zetten. 
+- De naam dient ‘radio_volume‘ te zijn. Gebruik de volgende gegeven
+![image-3-1004x1024](https://user-images.githubusercontent.com/62996429/142732323-d1253973-1e65-440d-85ff-a7083e899d57.png)
 
 - Add this to your configuration.yaml
 
