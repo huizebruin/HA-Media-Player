@@ -1,17 +1,35 @@
-
-radio_source: 
+radio_source:
   name: "Select station:"
-  options:  # List op options for source. Must match unique identifiers of each condition from the script.
-    - MP3
-    - Hallo Kids Radio
-    - Youtube
-  initial: MP3  # Option selected by default
+  options:
+    - Radio 538
+    - radio release
+    - Sublime
+    - Radio 10
+    - Q-Music
+    - Veronica
+    - Sky Radio
+    - Arrow Classic Rock
+    - Sublime Smooth
+    - Radio 1
+    - Radio 2
+    - Radio 3
+    - JUKE Foute Hits
+    - Qmusic foute uur
+    - qmusic non stop
+    - Qmusic summer
+    - radio 10 80's
+    - Radio 10 90's
+    - Radio 10 top 4000
+    - Simone Fm
+    - Tukker Fm
+    - Tynaarlo Lokaal
+  initial: Q-Music
   icon: mdi:radio
 
 radio_speaker:
   name: "Select speaker:"
-  options:  # List op options for target mediaplayer. Must match unique identifiers of each target from script.
-    - Livingroom
-    - Kitchen
-  initial: Livingroom  # Option selected by default
+  options:
+    - Huiskamer
+    - Huiskamer vollumio
+  initial: Huiskamer vollumio
   icon: mdi:speaker-wireless
